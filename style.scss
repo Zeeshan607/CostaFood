@@ -1,0 +1,482 @@
+@font-face{
+    font-family: gilroy;
+    src: url('bootstrap4/font/gilroy-light.otf');
+}
+
+.navbar{
+    font-family:gilroy;
+    color:black;
+    font-weight: 600;
+    padding-left:4%!important;
+    padding-right:4%!important;
+}
+.topsection{
+    height: 600px;
+    font-family: gilroy;
+    color: black;
+    .row{
+        height: 100%;
+        .topside-1{
+            height: 100%;
+            position: relative;
+            display:flex;
+            flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding-left:5% ;
+                h1{
+                    font-size: 3.5rem;
+                    font-weight: bold;
+                }
+            
+
+        }
+        .topside-2{
+            height: 100%;
+            position: relative;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .topsection-img{
+                width: 85%;
+                // height: ;
+            }
+        }
+        
+    }
+   
+}
+.second-s {
+    font-family: gilroy;
+    position: relative;
+    height:350px;
+    .row{
+        height: 100%;
+    }
+    .s-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:5%;
+        height: 100%;
+        .second-s-content-wrapper{
+        width:80%;
+        text-align:center;
+
+         h2{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .onion{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:5%;
+            left:0%;
+        }
+        }
+    }
+}
+.section-third{
+    font-family: gilroy;
+    
+.row{
+    height: 100%;
+ 
+    .c{
+        height: 100%;
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .service-box{
+        width: 320px;
+        height: 200px;
+      display: inline-block;
+      margin:0px 2% 0px 2%;
+        &.card{
+            border:none;
+        }
+        figure{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:3%;
+            width:70px;
+            height: 70px;
+            &.buffet{
+                background-color: #f3901085;
+            }
+            &.home{
+                background-color: rgba(111, 248, 47, 0.589);
+
+            }
+            img{
+                width: 50px;
+                height: 50px;
+             }
+        }
+        h3{
+            font-weight: bold;
+        }
+   
+    }
+    .tomato{
+        position:absolute;
+        right:0%;
+        top:0%;
+        width:120px;
+        height: 135px;
+
+    }
+}
+}
+.section-third-two{
+    font-family: gilroy;
+    .row{
+        height: 100%;
+        .dish{
+            transition: .3s all;
+            &:hover{
+                transform: scale(1.4);
+            }
+        }
+    .service-box{
+        width: 320px;
+        height: 200px;
+      display: inline-block;
+      margin:0px 2% 0px 2%;
+      figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:3%;
+        width:70px;
+        height: 70px;
+        &.reservation{
+            background-color: #57b0f4a1;
+        }
+        &.buffer2{
+            background-color:#ff0d168c;
+
+        }
+        img{
+            width: 50px;
+            height: 50px;
+         }
+    }
+    h3{
+        font-weight: bold;
+    }
+    }
+}
+
+}
+
+
+
+.fourth-s {
+    font-family: gilroy;
+    position: relative;
+    height:350px;
+    .row{
+        height: 100%;
+    }
+    .s-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:5%;
+        height: 100%;
+        position: relative;
+        .fourth-s-content-wrapper{
+        width:80%;
+        text-align:center;
+
+         h2{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+      
+        }
+    }
+    .chilies{
+        position:absolute;
+        right: 1.1%;
+        top: -10%;
+        width: 220px;
+        height: 120px;
+        transform: rotate(-30deg);
+    }
+}
+
+
+.recipies-section{
+    font-family: gilroy;
+    .row{
+        height: 100%;
+        .prod-col{
+            height: 100%;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .food-box{
+                position: relative;
+                margin:5%;
+                height: 235px;
+                width: 210px;
+                background-color: white;
+                transition: .3s all;
+                &:hover .food-img{
+                    transform: translateX(-60px) translateY(15px);
+                }
+                &:hover .food-back-text{
+                    transform: translateX(40px);
+                    
+                }
+                &:hover .hearbox{
+                    background-color: red;
+                    
+                }
+                .hearbox{
+                    position: absolute;
+                    right: -5%;
+                    top:-5%;
+                    background-color:black;
+                    width:40px;
+                    height: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 22px;
+                    border-radius: 30% 0% 30% 0%;
+                    transition: .3s all;
+
+                    .far{
+                        color:white;
+                    }
+                }
+                .inner-wrap{
+                    
+                    box-shadow: 0px 3px 15px rgba(0,0,0,.2);
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    padding:4%;
+                    border-radius: 10% 0% 10% 0%;
+
+                    .title{
+                        font-weight: bold;
+                        font-size: 1.4rem;
+                        margin-top: 10px;
+                    }
+                    .category{
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        margin-bottom: 4px;
+
+                    }
+                    .price{
+                        margin-bottom: auto;
+                    }
+                    .food-back-text{
+                        text-align:center;
+                        margin-bottom: auto;
+                        color:black;
+                        transition: .3s all;
+                        text-decoration: none;
+                        &:hover{
+                            transform: scale(1.1) translateX(35px);
+                           
+                        }
+                    }
+                    .food-img{
+                        width:130px;
+                        height: 130px;
+                        position: absolute;
+                        bottom:-7%;
+                        transition: .3s all;
+                        z-index: 2;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.carousel-section{
+    margin-top: 100px;
+    height:500px;
+    font-family: gilroy;
+    .carousel{
+        height: 100%;
+        z-index: -100;
+        .carousel-indicators{
+            bottom:-15%;
+            li{
+                background-color:black ;
+                cursor: pointer;
+            }
+        }
+    }
+    .carousel-inner{
+        overflow:visible;
+        .carousel-item{
+                .slide-r{
+                    .slide-col-1{
+                        display: flex;
+                        flex-direction:column ;
+                        justify-content: center;
+                        align-items: center;
+                      
+                        .slide-img-box{
+                            position: relative;
+                            
+                            .label{
+                                width:140px;
+                                height: 140px;
+                                border-radius: 50%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content:center;
+                                align-items: center;
+                                color:white;
+                                position: absolute;
+                                left: -3%;
+                                top:-3%;
+                                background-color: rgb(255, 5, 5);
+                                z-index: 1000000;
+                               .price{
+                                   font-size: 28px;
+                                   letter-spacing: 2px;
+                                   font-weight: bold;
+                               }
+                            }
+                            img{
+                                height:350px;
+                                width: 350px;
+                            }
+                           
+                        }
+                    }
+                    .slide-col-2{
+                        display: flex;
+                        flex-direction:column ;
+                        justify-content: center;
+                        align-items: start;
+                        padding-left: 4%;
+                        padding-right: 4%;
+                        .slide-heading{
+                            margin-bottom: 3%;
+                            font-weight: bold;
+                        }
+                        .slide-description{
+                            font-size: 14px;
+                            margin-bottom: 5%;
+                            line-height: 1.7;
+                        
+                        }
+                        .slide-action{
+                                background-color: black;
+                                color:white;
+                        }
+                    }
+                }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: gilroy;
+    height: 90px;
+    position: relative;
+    .footer-leaf{
+        position: absolute;
+        right:0%;
+        bottom:70%;
+        width: 200px;
+        height: 250px;
+    }
+    .footer-r{
+        height: 100%;
+        .footer-c1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        height: 100%;
+        p{
+            margin-bottom: 0%;
+        }
+
+        }
+        .footer-c2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        height: 100%;
+
+            .footer-list{
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+                margin-bottom:0%;
+                width: 100%;
+                .list-item{
+                    margin:0 5% 0 5%;
+                }
+            }
+        }
+        .footer-c3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        height: 100%;
+        .fab{
+            display: inline-block;
+            color:white;
+            margin:0 3% 0 3%;
+            font-size: 33px;
+        }
+
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+    .topsection{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 501px) {
+    .topsection{
+        height: 100%;
+    }
+}
