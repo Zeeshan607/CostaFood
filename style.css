@@ -3,6 +3,10 @@
   src: url("bootstrap4/font/gilroy-light.otf");
 }
 
+body {
+  overflow-X: hidden;
+}
+
 .navbar {
   font-family: gilroy;
   color: black;
@@ -77,7 +81,7 @@
   height: 100%;
 }
 
-.second-s .s-col {
+.second-s .row .s-col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,17 +99,17 @@
   height: 100%;
 }
 
-.second-s .s-col .second-s-content-wrapper {
+.second-s .row .s-col .second-s-content-wrapper {
   width: 80%;
   text-align: center;
 }
 
-.second-s .s-col .second-s-content-wrapper h2 {
+.second-s .row .s-col .second-s-content-wrapper h2 {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.second-s .s-col .second-s-content-wrapper .onion {
+.second-s .row .onion {
   width: 100px;
   height: 100px;
   position: absolute;
