@@ -119,13 +119,14 @@ body {
 
 .section-third {
   font-family: gilroy;
+  margin-top: 70px;
 }
 
 .section-third .row {
   height: 100%;
 }
 
-.section-third .row .c {
+.section-third .row .c1 {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,11 +174,19 @@ body {
 }
 
 .section-third .row .service-box figure.buffet {
-  background-color: #f3901085;
+  background-color: #FAE6D8;
 }
 
 .section-third .row .service-box figure.home {
-  background-color: rgba(111, 248, 47, 0.589);
+  background-color: #CEF0E5;
+}
+
+.section-third .row .service-box figure.reservation {
+  background-color: #C7E6FF;
+}
+
+.section-third .row .service-box figure.buffer2 {
+  background-color: #FAC7C4;
 }
 
 .section-third .row .service-box figure img {
@@ -197,71 +206,26 @@ body {
   height: 135px;
 }
 
-.section-third-two {
-  font-family: gilroy;
-}
-
-.section-third-two .row {
-  height: 100%;
-}
-
-.section-third-two .row .dish {
+.section-third .row .dish {
   -webkit-transition: .3s all;
   transition: .3s all;
 }
 
-.section-third-two .row .dish:hover {
+.section-third .row .dish:hover {
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
 }
 
-.section-third-two .row .service-box {
-  width: 320px;
-  height: 200px;
-  display: inline-block;
-  margin: 0px 2% 0px 2%;
-}
-
-.section-third-two .row .service-box figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 3%;
-  width: 70px;
-  height: 70px;
-}
-
-.section-third-two .row .service-box figure.reservation {
-  background-color: #57b0f4a1;
-}
-
-.section-third-two .row .service-box figure.buffer2 {
-  background-color: #ff0d168c;
-}
-
-.section-third-two .row .service-box figure img {
-  width: 50px;
-  height: 50px;
-}
-
-.section-third-two .row .service-box h3 {
-  font-weight: bold;
+.section-third .row:nth-child(2) {
+  margin-top: 100px;
+  height: 100%;
 }
 
 .fourth-s {
   font-family: gilroy;
   position: relative;
   height: 350px;
+  margin-top: 100px;
 }
 
 .fourth-s .row {
