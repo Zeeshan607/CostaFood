@@ -60,7 +60,7 @@ body{
     .row{
         height: 100%;
    
-    .s-col{
+    .fs-col{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -225,7 +225,7 @@ body{
     .row{
         height: 100%;
     }
-    .s-col{
+    .fs-col{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -544,7 +544,7 @@ margin-top: 3%;
         width: 80px;
         height: 80px;
     }
-    .s-col .second-s-content-wrapper{
+    .ss-col .second-s-content-wrapper{
         width: 100%;
         height: 100%;
         margin-top: auto;
@@ -568,6 +568,10 @@ margin-top: 3%;
                 height: 90px;
             }
             .service-box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               text-align: justify;
                 margin-bottom: 5%;
             }
         }
@@ -576,6 +580,10 @@ margin-top: 3%;
         // }
         .st-r2-c2{
             .service-box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               text-align: justify;
                 margin-bottom: 5%;
             }
         }
@@ -584,10 +592,96 @@ margin-top: 3%;
         }
     }
 
-   
-   
-
 }
+.fourth-s{
+
+     margin-top:50px;
+    .chilies{
+        width: 120px;
+        height: 55px;
+        top:-17%;
+    }
+    .fs-col{
+        .fourth-s-content-wrapper{
+           
+            h2{
+                font-size: 2.1rem;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+  
+}
+.recipies-section{
+    .row{
+        .prod-col{
+            .food-box{
+                margin-bottom:40px;
+            }
+        }
+    }
+   
+}
+.carousel-section{
+    height: 100%;
+    margin-bottom: 50px;
+    .carousel-inner {
+        .carousel-item {
+            .container{
+                padding:0%;
+            }
+            .slide-r{
+                .slide-col-1 {
+                    .slide-img-box{
+                        .label{
+                            width:80px;
+                            height: 80px;
+                        }
+                        img{
+                            width:200px;
+                            height: 200px;
+                        }
+                    }
+                }
+                .slide-col-2{
+                    .slide-heading{
+                        font-size: 2rem;
+                    }
+                    .slide-description{
+                        font-size: 14px;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }}
+    .footer{
+        .footer-leaf{
+            width:100px;
+            height: 125px;
+        }
+        .row{
+            .footer-c1{
+                font-size: 10px;
+            }
+            .footer-c2{
+                font-size: 12px;
+            }
+            .footer-c3{
+                .fab{
+                    font-size: 12px;
+
+                }
+            }
+
+        }
+    }
+   
+    
+  
+
 
 }
 // for tablets
