@@ -76,10 +76,6 @@ for(var i=0; i<fb_length;i++){
 }
 
 
-
-
-
-
 // footer
 gsap.from(".footer-leaf", 2, {
     opacity:0.3,

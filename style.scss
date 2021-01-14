@@ -692,7 +692,7 @@ margin-top: 3%;
 
 }
 // for tablets
-@media only screen and (max-width: 768px) and (min-width: 501px) {
+@media only screen and (max-width: 767px) and (min-width: 501px) {
     .topsection{
         height: 100%;
         .row{
@@ -819,3 +819,129 @@ margin-top: 3%;
 }
 
 // for desktop
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+
+    .topsection {
+        height: 400px;
+        .row {
+            .topside-1 h1{
+                font-size:2.6rem;
+            }
+            .topside-2 {
+                .topsection-img{
+                    width:370px;
+                }
+            }
+        }
+    }
+   .section-third{
+       margin-top:40px;
+       .row {
+           .st-r2-c2{
+               flex-wrap: nowrap;
+           }
+     .service-box{
+         height:100%;
+     }
+           .tomato{
+               top:-65%;
+               width:110px;
+               height:125px;
+           }
+       }
+   }
+   .fourth-s{
+       margin-top:50px;
+       .chilies{
+           width:160px;
+           height:75px;
+       }
+   }
+   .carousel-section{
+    .carousel-inner .carousel-item {
+        .slide-r {
+            .slide-col-1 .slide-img-box {
+                img{
+                    height: 320px;
+                    width: 320px;
+                }
+                .label {
+                    width: 125px;
+                    height: 125px;
+               }
+            }
+       .slide-col-2 .slide-heading{
+           font-size:2.1rem;
+       }
+
+             
+        }
+      
+    }
+}
+.footer{
+    .footer-leaf{
+        width: 125px;
+        height: 150px;
+    }
+
+}
+   
+
+}
+// 4k
+@media only screen and  (min-width: 1900px) {
+    .navbar{
+        .navbar-brand{
+            font-size:2.5rem!important;
+
+        }
+.icon{
+    font-size:2.5rem!important;
+
+}
+        .nav-link{
+            font-size:2.5rem!important;
+        }
+    }
+    .topsection .row .topside-2 .topsection-img{
+        width:550px;
+    }
+    p, span, .carousel-section .carousel-inner .carousel-item .slide-r .slide-col-2 .slide-description{
+        font-size:22px;
+    }
+    .second-s .row{
+        .onion{
+            top:-20%;
+            width: 140px;
+            height:140px
+        }
+
+    }
+    .section-third .row {
+        .dish{
+            width:500px;
+        }
+        .st-r2-c1{
+            justify-content: end!important;
+        }
+      .service-box{
+          width:40%;
+          height: 100%;
+      }
+      .tomato{
+          top:-60%;
+          width: 165px;
+height: 165px;
+      }
+    }
+    footer .footer-leaf{
+        width:180px!important;
+        height: 230px!important;
+    }
+    .carousel-section{
+        height: 100%;
+        margin-bottom: 10%;
+    }
+}
+
